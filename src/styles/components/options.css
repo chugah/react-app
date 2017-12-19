@@ -1,0 +1,58 @@
+/* options component */
+
+.widget {
+	background-color: #464b5e;
+	margin-bottom: 3rem;
+}
+
+.widget-header {
+	background-color: #3c4251;
+	color: #a5afd7;
+	padding: 2.4rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.widget-header__title {
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.widget-header__message {
+	color: #a5afd7;
+	margin: 0;
+	padding: 2.4rem;
+	text-align: center;
+	border-bottom: 1px solid #3c4251;
+	margin-bottom: 2.5rem;
+}
+
+/* option component */
+
+.option {
+	border-bottom: 1px solid #3c4251;
+	display: flex;
+	justify-content: space-between;
+	padding: 2.4rem 1.6rem;
+}
+
+.option__text {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2rem;
+	margin: 0;
+	word-break: break-all;
+}
+
+@media (min-width: 40rem) {
+	* {
+		.option__text {
+			font-size: 2rem;
+		}
+
+		.widget-header__title {
+			font-size: 2rem;
+		}
+	}
+}

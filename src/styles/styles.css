@@ -1,0 +1,45 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+	background-color: #333745;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: default;
+}
+
+.btn {
+	background: #8357c5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 0.3rem solid #60418F;
+	color: #fff;
+	font-weight: 500;
+	padding: 1.2rem;
+}
+
+.btn--link {
+	background: none;
+	border: none;
+	color: #a5afd7;
+	font-size: 1.2rem;
+	padding: 0 1rem 0 0;
+}
+
+@media (min-width: 40rem) {
+	* {
+		.btn--link {
+			font-size: 2rem;
+			padding: 0;
+		}
+	}
+}
